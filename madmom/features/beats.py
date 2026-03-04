@@ -942,8 +942,8 @@ class DBNBeatTrackingProcessor(OnlineProcessor):
     array([0.1 , 0.45, 0.8 , 1.12, 1.48, 1.8 , 2.15, 2.49])
 
     """
-    MIN_BPM = 55.
-    MAX_BPM = 215.
+    MIN_BPM = 60.
+    MAX_BPM = 160.
     NUM_TEMPI = None
     TRANSITION_LAMBDA = 100
     OBSERVATION_LAMBDA = 16
